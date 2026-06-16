@@ -23,9 +23,9 @@
 
 /* semantic color variables for this project */
 :root {
-  --c-background: var(--vt-c-white);
-  --c-background-soft: var(--vt-c-white-soft);
-  --c-background-mute: var(--vt-c-white-mute);
+  --c-bg: var(--vt-c-white);
+  --c-bg-soft: var(--vt-c-white-soft);
+  --c-bg-mute: var(--vt-c-white-mute);
 
   --c-border: var(--vt-c-divider-light-2);
   --c-border-hover: var(--vt-c-divider-light-1);
@@ -38,9 +38,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-background: var(--vt-c-black);
-    --c-background-soft: var(--vt-c-black-soft);
-    --c-background-mute: var(--vt-c-black-mute);
+    --c-bg: var(--vt-c-black);
+    --c-bg-soft: var(--vt-c-black-soft);
+    --c-bg-mute: var(--vt-c-black-mute);
 
     --c-border: var(--vt-c-divider-dark-2);
     --c-border-hover: var(--vt-c-divider-dark-1);
@@ -61,7 +61,7 @@
 body {
   min-height: 100vh;
   color: var(--c-text);
-  background: var(--c-background);
+  background: var(--c-bg);
   transition:
     color 0.5s,
     background-color 0.5s;
