@@ -27,6 +27,7 @@ nav {
   /* height: 100vh; */
   position: sticky;
   top: 0px;
+  flex: 0 0 0 !important;
 }
 
 nav a.router-link-exact-active {

@@ -10,11 +10,28 @@
   overflow-x: hidden
 }
 
+#app > * {
+  flex: auto;
+}
+
+input {
+  padding: 0.5rem;
+  border: none;
+  margin: 0.75rem;
+  border-radius: 0.75rem;
+}
+
 a, .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
   padding: 3px;
+}
+
+.c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (hover: hover) {

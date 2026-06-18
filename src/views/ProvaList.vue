@@ -32,14 +32,13 @@ fetch('https://api.enem.dev/v1/exams', {method: 'GET'})
     .provas{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
         height: fit-content;
     }
     .prova{
-        margin: 1rem;
+        margin: 1.5rem;
         background-color: var(--c-bg-mute);
-        padding: 1rem;
+        padding: 1.5rem;
         border-radius: 1rem ;
-        height: fit-content;
+        flex: auto;
     }
 </style>
